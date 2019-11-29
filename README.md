@@ -1,10 +1,10 @@
 # System Requirements
-
+```
 OS: Ubuntu 16.04.6 LTS
 CPUs: 2
 Memory: 8GB
 Harddisk: 50GB
-
+```
 # Setup Quorum
 
 Git clone https://github.com/jpmorganchase/quorum.git
