@@ -65,7 +65,7 @@ DERBY_HOME="/usr/lib/jvm/jdk1.8.0_181/db"
 ```
 after setup /etc/environment, pls run the script to update jave config
 
-``
+```
 sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.8.0_181/bin/java" 0
 sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.8.0_181/bin/javac" 0
 sudo update-alternatives --set java /usr/lib/jvm/jdk1.8.0_181/bin/java
@@ -73,10 +73,11 @@ sudo update-alternatives --set javac /usr/lib/jvm/jdk1.8.0_181/bin/javac
 
 update-alternatives --list java
 update-alternatives --list javac
-``
+
 java -version
 
 echo $JAVA_HOME
+```
 
 # Install Tessera
 
@@ -129,6 +130,7 @@ If you put password when create tm key, pls write down you password.
 
 # Get Started Instructions - Send configuration data below to iAPPS
 
+```
 1. ETH account public address
 2. Node key public address
 3. Tessera public key
@@ -143,3 +145,4 @@ If you put password when create tm key, pls write down you password.
 	(IN & OUT) Tessera ThirdParty: 
 	(IN & OUT) Tessera Enclave: 
 	(IN & OUT) Tessera P2P : 
+```
