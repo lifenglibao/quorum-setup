@@ -1,4 +1,5 @@
 1
+2
 #!/bin/bash
 set -u
 set -e
