@@ -3,6 +3,7 @@
 3
 4
 5
+6
 #!/bin/bash
 set -u
 set -e
