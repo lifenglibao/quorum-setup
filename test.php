@@ -4,6 +4,7 @@
 4
 5
 6
+7
 #!/bin/bash
 set -u
 set -e
